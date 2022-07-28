@@ -47,7 +47,7 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.9;
-   padding-top: 75px;
+  padding-top: 75px;
   text-shadow: 1px 2px 0px black;
 }
 
@@ -56,6 +56,15 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.shecodes {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.shecodes:hover {
+  color: var(--primary-color);
 }
 
 div.main {
@@ -69,9 +78,9 @@ div.main {
   font-size: 20px;
 }
 
-.yoga-descrip,
-.weather-descrip,
-.yogurt-descrip {
+.programming-descrip,
+.photography-descrip,
+.newspaper-descrip {
   display: block;
   text-align: left;
   margin: 0 auto;
@@ -103,9 +112,9 @@ div.main {
 }
 
 .contact-link,
-.yoga-link,
-.weather-link,
-.yogurt-link {
+.programming-link,
+.photography-link,
+.newspaper-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -117,6 +126,16 @@ div.main {
   border: 2px solid var(--primary-color);
   border-radius: 10px !important;
   background-color: #f8f6feca;
+}
+
+.contact-link:hover,
+.programming-link:hover,
+.photography-link:hover,
+.newspaper-link:hover,
+.about-link:hover {
+  color: var(--secondary-color);
+  background-color: #88d1de;
+  transition: ease-in-out 85ms;
 }
 
 .homepage-link {
@@ -144,4 +163,14 @@ div.main {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  top: 25px;
+  margin: 10px auto;
+  background-color: #88d1de;
+font-family: monospace;
+font-size: 12px;
 }
