@@ -130,6 +130,11 @@ div.main {
   color: var(--primary-color);
 }
 
+.aboutme-contents {
+  display: flex;
+  flex: 2 1 100%;
+}
+
 .about-link {
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
@@ -154,12 +159,13 @@ div.main {
 }
 
 .about-paragraphs {
-  display: block;
-  margin: 30px 0;
+  display: flex;
+  margin: 0 auto;
+ 
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  margin: 5px;
 }
 
 .email-link {
@@ -175,9 +181,18 @@ div.main {
 }
 
 .programmer-photo {
-  max-width: 550px;
-  border-radius: 100%;
-  max-height: 400px;
+  border-radius: 48%;
+  max-height: 300px;
+  display: flex;
+ align-content: center;
+  align-items: center;
+  margin: 40px auto;
+
+}
+
+.job-title {
+  position: relative;
+  right: 25px;
 }
 
 footer {
