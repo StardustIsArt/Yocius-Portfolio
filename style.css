@@ -73,19 +73,24 @@ p {
 }
 
 div.main-content {
-  background-image: url(images/HastaFlower.jpg);
-  background-size: 125%;
+  overflow: hidden;
+  position: relative;
   margin: 0 auto;
+}
+
+.hero-main {
+  margin-top: 25px;
+}
+
+.index-bg {
+  opacity: 0.8;
+  position: absolute;
+  background-size: cover;
 }
 
 .name {
   line-height: 90px;
   font-size: 20px;
-}
-
-div.programming-projects-main {
-  background-image: url(images/code-markus-spiske-unsplash.jpg);
-  background-size: 75%;
 }
 
 .programming-descrip,
@@ -101,6 +106,7 @@ div.programming-projects-main {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  position: relative;
 }
 
 .navigation-links a {
@@ -166,7 +172,6 @@ div.programming-projects-main {
 .about-paragraphs {
   display: flex;
   margin: 0 auto;
- 
 }
 
 .about-paragraphs p {
@@ -189,10 +194,9 @@ div.programming-projects-main {
   border-radius: 48%;
   max-height: 300px;
   display: flex;
- align-content: center;
+  align-content: center;
   align-items: center;
   margin: 40px auto;
-
 }
 
 .job-title {
@@ -208,4 +212,14 @@ footer {
   background-color: #88d1de;
   font-family: monospace;
   font-size: 12px;
+}
+
+/* For project.html css page */
+
+div.programming-projects-main {
+  background-image: url(images/code-markus-spiske-unsplash.jpg);
+  background-size: 75%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
