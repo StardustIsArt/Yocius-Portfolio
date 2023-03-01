@@ -63,6 +63,26 @@ p {
   text-align: center;
 }
 
+.headshot-title {
+  display: flex;
+  justify-content: center;
+}
+
+.headshot {
+  display: flex;
+  margin-top: 55px;
+  margin-left: 35px;
+  max-width: 72px;
+  position: relative;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 .shecodes {
   text-decoration: none;
   color: blueviolet;
@@ -123,7 +143,7 @@ div.main-content {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
 }
 
@@ -221,5 +241,5 @@ div.programming-projects-main {
   background-size: 75%;
   margin: 0 auto;
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
 }
