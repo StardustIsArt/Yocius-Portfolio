@@ -74,6 +74,33 @@ p {
   text-align: center;
 }
 
+.name {
+  line-height: 90px;
+  font-size: 20px;
+}
+
+.card {
+  display: grid;
+}
+
+.headshot-title {
+  display: flex;
+  justify-content: center;
+}
+
+.headshot {
+  display: flex;
+  margin-top: 55px;
+  margin-left: 35px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 .shecodes {
   text-decoration: none;
   color: blueviolet;
@@ -83,15 +110,20 @@ p {
   color: var(--primary-color);
 }
 
-div.main {
-  background-image: url(images/HastaFlower.jpg);
-  background-size: 125%;
+div.main-content {
+  overflow: hidden;
+  position: relative;
   margin: 0 auto;
 }
 
-.name {
-  line-height: 90px;
-  font-size: 20px;
+.hero-main {
+  margin-top: 25px;
+}
+
+.index-bg {
+  opacity: 0.8;
+  position: absolute;
+  background-size: cover;
 }
 
 .programming-descrip,
@@ -107,6 +139,7 @@ div.main {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  position: relative;
 }
 
 .navigation-links a {
@@ -124,7 +157,7 @@ div.main {
 }*/
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
 }
 
@@ -204,11 +237,18 @@ div.main {
 }
 
 .prgrammer-photo:before {
-  display: block;
-  position: absolute;
+    position: absolute;
   -moz-box-shadow: inset 0px 0px 6px 6px rgba(255, 255, 255, 1);
   -webkit-box-shadow: inset 0px 0px 6px 6px rgba(255, 255, 255, 1);
   box-shadow: inset 0px 0px 6px 6px rgba(255, 255, 255, 1);
+
+  border-radius: 48%;
+  max-height: 350px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 40px auto;
+
 }
 
 .job-title {
@@ -224,4 +264,14 @@ footer {
   background-color: #05343c;
   font-family: monospace;
   font-size: 12px;
+}
+
+/* For project.html css page */
+
+div.programming-projects-main {
+  background-image: url(images/code-markus-spiske-unsplash.jpg);
+  background-size: 75%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 200px;
 }
